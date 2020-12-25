@@ -1,0 +1,302 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: url(./Images/Technology.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    transform:1s;
+    transition-delay: 1s;
+    
+    
+
+
+}
+/* .first-img{
+    background-image: url(Images/Technology2.jpg);
+    width: 100vw;
+    height: auto;
+    
+} */
+
+.nav1 ul li{
+    list-style: none;
+    
+    
+}
+.nav1-items{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    /* border: 1px solid white; */
+    padding:  15px;
+    
+    
+    
+}
+.nav1-items li{
+    /* margin:5px 15px 5px 0px; */
+    /* border: 1px solid white; */
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .6s;
+    border: 1.5px solid white;
+    text-shadow: 2px 2px 5px black;
+    
+    
+        
+    
+    
+}
+.nav1-items li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 0px;
+    font-weight: 100;
+    transform:rotate(360deg);
+    
+    
+
+}
+.signup{
+    position: absolute;
+    right: 40px;
+    display: flex;
+    top: 45px;
+    flex-wrap: wrap;
+    
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 60px;
+    letter-spacing: 20px;
+    
+    /* font-family: 'Cinzel Decorative', cursive; */
+    
+    transition: all 1s;
+    transition-delay: 0.7s;
+    transform-box: scale(1.5);
+    color:wheat;
+    text-shadow: 5px 5px 5px black;
+
+
+}
+.para{
+    transform: translate(22 22 55);
+    transition: all 2s;
+    transition-delay: 1.5s;
+    padding: 10px 40px;
+    opacity: .9;
+    margin: 10px 200px 0px 200px;
+    text-shadow: 2px 2px 10px black;
+    font-size: 1.15rem;
+    
+}
+
+.form{
+    
+    position:absolute;
+    width: 500px;
+
+    height: 700px;
+    
+    
+    margin: auto;
+    margin-top: 50px;
+    padding: 200px;
+    z-index: 5;
+}
+.form input{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    border:none;
+    transition: all .3s;
+    z-index: 5;
+    
+    
+}
+.heading2{
+    font-size: 5rem;
+    text-shadow: 4px 4px 4px black;
+    color: white;
+}
+.form{
+    position:relative;
+  background-image: radial-gradient(rgb(64, 170, 170),cyan);
+
+    box-shadow: 10px 20px 50px black;
+    border-radius: 5rem;
+    margin-bottom: 0rem;
+    z-index: 9;
+    margin-top: -30rem;
+    
+    
+}
+.form input:hover{
+    background-color: cyan;
+    transition: .5s;
+    
+}
+.form h2{
+    margin-bottom: 5rem;
+    z-index: 2;
+}
+.submit{
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: white;
+    background-color: darkcyan;
+    padding: 24px 23px;
+    margin-top: 22px;
+    z-index: 5;
+
+}
+.active{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    text-shadow: none;
+}
+.img{
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    position: relative;
+    margin-top: -70rem;
+    
+
+}
+
+.technolog2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.box{
+    position: absolute;
+    width: 100%;
+    height: 79rem;
+    background:radial-gradient(blue,cyan);
+    margin-top: -39rem;
+
+}
+
+
+.heading3{
+
+    padding: 1rem;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    border-raduis: 35px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    text-align: center;
+    font-size: 5rem;
+    margin-left: 6rem;
+    z-index: 10;
+    background-color: aqua;
+    
+    
+
+}
+
+.boxes-3  p{
+
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+
+.boxes-3{
+    width: 300px;
+    height: 600px;
+    border: 3px solid cyan  ;
+    color:white;
+    z-index: 2;
+    position: relative;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px 2px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px black;
+    background:-webkit-radial-gradient(rgb(142, 142, 199),darkcyan);
+    margin-top: 10rem;
+    box-shadow: 6px 6px 8px black;
+}
+
+.img1{
+    width: 4rem;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 3px black;
+    margin-top: 150px;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 19rem;
+    position: relative;
+
+}
+.flex::before{
+    content: " ";
+    background-image: -moz-linear-gradient(cyan,darkcyan);
+    border-radius: 5px;
+    
+    width: 100%;
+    height: 10rem;
+}
+.boxes-3:hover{
+    box-shadow: 6px 6px 8px darkturquoise;
+    transform: scale(1.01);
+    transition: all 0.28s;
+    cursor: pointer;
+
+}
+
+
+
+.bg-image{
+
+
+    background-image: url(./Images/bg.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
